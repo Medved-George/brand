@@ -5,15 +5,35 @@
 @import url("../vendor/fonts/fonts.css");
 
 /* Container */
-@import url("../blocks/container/container.css");
+.container {
+    padding: 0 calc(50% - 570px);
+}
 
 /* Page */
-@import url("../blocks/page/page.css");
+.page {
+    font-family: 'Lato', sans-serif;
+}
 
 /* Header */
-@import url("../blocks/header/header.css");
-@import url("../blocks/header/__main/header__main.css");
-@import url("../blocks/header/__search/header__search.css");
+.header {
+    background: #222222;
+    min-height: 75px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header__main {
+    width: 111px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__search {
+    color: #E8E8E8;
+    font-size: 26px;
+}
 
 .header__buttons {
     width: 168px;
@@ -31,8 +51,6 @@
     color: #E8E8E8;
     font-size: 32px;
 }
-
-.menu {}
 
 .menu__button-open {
     color: #E8E8E8;
