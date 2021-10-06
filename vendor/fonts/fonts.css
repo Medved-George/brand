@@ -1,47 +1,55 @@
 @font-face {
     font-family: 'Lato', sans-serif;
     src: url('Lato-Light.ttf') format('truetype');
+    font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Lato', sans-serif;
     src: url('LightItalic.ttf') format('truetype');
+    font-weight: 300;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Lato', sans-serif;
     src: url('Lato-Regular.ttf') format('truetype');
+    font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Lato', sans-serif;
     src: url('Lato-Italic.ttf') format('truetype');
+    font-weight: 500;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Lato', sans-serif;
     src: url('Lato-Bold.ttf') format('truetype');
+    font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Lato', sans-serif;
     src: url('Lato-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Lato', sans-serif;
     src: url('Lato-Black.ttf') format('truetype');
+    font-weight: 900;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Lato', sans-serif;
     src: url('Lato-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
     font-style: italic;
 }

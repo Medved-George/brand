@@ -52,6 +52,7 @@
     font-size: 32px;
 }
 
+/* Menu */
 .menu__button-open {
     color: #E8E8E8;
     font-size: 32px;
@@ -122,11 +123,6 @@
     color: #6F6E6E;
 }
 
-.lead {
-    background: #F1E4E6;
-    min-height: 764px;
-}
-
 .switcher {
     position: absolute;
     z-index: -1;
@@ -135,4 +131,47 @@
 
 .switcher:checked+.menu__drop {
     display: flex;
+}
+
+/* Lead */
+.lead {
+    background-color: #F1E4E6;
+    min-height: 764px;
+}
+
+.lead__content {
+    position: relative;
+    min-height: 764px;
+    background: no-repeat url("../images/lead-background.png");
+    background-position-x: -220px;
+}
+
+.lead__heading {
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+    position: absolute;
+    top: 290px;
+    right: 0;
+}
+
+.lead__title {
+    margin: 0;
+    color: #222;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.lead__subtitle {
+    margin: 0;
+    color: #222;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+
+.lead__subtitle_accent {
+    color: #F16D7F;
 }
